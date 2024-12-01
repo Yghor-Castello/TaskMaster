@@ -1,0 +1,57 @@
+[
+  {
+      "model": "task_master.task",
+      "pk": 1,
+      "fields": {
+          "title": "Task 1",
+          "is_completed": false,
+          "created_at": "2024-12-01T10:00:00Z",
+          "updated_at": "2024-12-01T10:00:00Z",
+          "owner": 1
+      }
+  },
+  {
+      "model": "task_master.task",
+      "pk": 2,
+      "fields": {
+          "title": "Task 2",
+          "is_completed": true,
+          "created_at": "2024-12-01T11:00:00Z",
+          "updated_at": "2024-12-01T11:00:00Z",
+          "owner": 1
+      }
+  },
+  {
+      "model": "task_master.task",
+      "pk": 3,
+      "fields": {
+          "title": "Task 3",
+          "is_completed": false,
+          "created_at": "2024-12-01T12:00:00Z",
+          "updated_at": "2024-12-01T12:00:00Z",
+          "owner": 2
+      }
+  },
+  {
+      "model": "task_master.task",
+      "pk": 4,
+      "fields": {
+          "title": "Task 4",
+          "is_completed": true,
+          "created_at": "2024-12-01T13:00:00Z",
+          "updated_at": "2024-12-01T13:00:00Z",
+          "owner": 2
+      }
+  },
+  {
+      "model": "task_master.task",
+      "pk": 5,
+      "fields": {
+          "title": "Task 5",
+          "is_completed": false,
+          "created_at": "2024-12-01T14:00:00Z",
+          "updated_at": "2024-12-01T14:00:00Z",
+          "owner": 1
+      }
+  }
+]

@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Apps
-    # 'task_master',
+    'task_master',
 
     # Swagger
     'drf_yasg',

@@ -43,32 +43,26 @@ REST API developed with Django and Django REST Framework for managing tasks and 
    docker-compose exec backend python manage.py createsuperuser
    ```
 
-4. Load Fixtures to Populate the Database:
+4. Creation of a non-superuser account in the admin panel:
+
+5. Load Fixtures to Populate the Database:
 
    ```bash
-   docker-compose exec backend python manage.py loaddata tasks_fixture.json
+   docker-compose exec backend python manage.py loaddata tasks.json
    ```
 
-5. Access the API:
+6. Access the API:
 
    - The API will be available at `http://localhost:8000/`.
 
-6. Run Tests:
+7. Run Tests:
 
    ```bash
    docker-compose exec backend pytest
    ```
 
-7. Test with Insomnia:
+8. Test with Insomnia:
 
    - Navigate to the `insomnia_collection` folder and import the JSON file into your Insomnia workspace.
-
----
-
-## Example Endpoints
-
-- `http://localhost:8000/api/tasks/` - Retrieve all tasks.
-- `http://localhost:8000/api/tasks/{id}/` - Retrieve, update, or delete a specific task by ID.
-- `http://localhost:8000/api/tasks/?status=completed` - Filter tasks by status.
 
 ---
